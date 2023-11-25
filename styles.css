@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #234E70;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #C683D7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.taskEntryWindow {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button#done {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button#clear {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#lists {
+    padding: 20px;
+}
+
+p {
+    padding: 10px;
+    border-bottom: 1px solid #59d60b;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button i {
+    margin: 0 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-pen-to-square {
+    color: #2196f3;
+}
+
+.fa-trash {
+    color: #f44336;
+}
+
+.fa-pen-to-square,
+.fa-trash {
+    font-size: 18px;
+}
+
+/* Additional styles for a gentle look */
+body {
+    color: #333;
+}
+
+.container {
+    background-color: #dbc7e0
+}
+
+button#done {
+    background-color: #66bb6a;
+}
+
+button#clear {
+    background-color: #ef5350;
+}
+
+p:hover {
+    background-color: #f5f5f5;
+}
+
+.fa-pen-to-square,
+.fa-trash {
+    cursor: pointer;
+}
+
+.fa-pen-to-square:hover {
+    color: #1565c0;
+}
+
+.fa-trash:hover {
+    color: #c62828;
+}
